@@ -43,4 +43,7 @@ Bigger picture: infrastructure for software that builds itself. Not better promp
   <a href="https://substack.com/@krzysztofdudek">
     <img src="https://img.shields.io/badge/Substack-Subscribe-FF6719?logo=substack&logoColor=white" alt="Substack" />
   </a>
+  <a href="https://www.reddit.com/user/krzysztofdudek/">
+    <img src="https://img.shields.io/badge/Reddit-Profile-FF4500?logo=reddit&logoColor=white" alt="Reddit" />
+  </a>
 </div>
