@@ -1,10 +1,10 @@
 <div align="center">
 
-  ### Hey, I'm Krzysztof.
+### Hey, I'm Krzysztof.
 
-  Software engineer. .NET, distributed systems, building stuff from scratch.
+Software engineer. .NET, distributed systems, building stuff from scratch.
 
-  Right now I'm making open source tools that make AI agents actually work in real codebases. Not demos, not wrappers. Tools born from watching agents say "done" when they're not even close.
+I build production software with AI agents and ship open source tools from what I learn. ResearcherSkill and Yggdrasil came from watching agents say "done" when they're not even close.
 
 </div>
 
