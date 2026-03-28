@@ -22,7 +22,7 @@ Bigger picture: infrastructure for software that builds itself. Not better promp
 
 <div align="center">
   <a href="https://discord.gg/SZTbgsH8Wm">
-    <img src="yggdrasil.svg" alt="Gaiaan" width="80" />
+    <img src="yggdrasil.svg" alt="Yggdrasil" width="80" />
   </a>
   <br/><br/>
   <a href="https://discord.gg/SZTbgsH8Wm">
