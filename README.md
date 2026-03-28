@@ -31,7 +31,16 @@ Bigger picture: infrastructure for software that builds itself. Not better promp
   <br/>
   <sub>Building something similar or have questions? Join the Discord.</sub>
   <br/><br/>
+  <a href="https://chrisdudek.com">
+    <img src="https://img.shields.io/badge/Website-chrisdudek.com-0ea5e9" alt="Website" />
+  </a>
   <a href="https://www.linkedin.com/in/krzysztofdudek">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://x.com/krzysztofdudekx">
+    <img src="https://img.shields.io/badge/X-Follow-000000?logo=x&logoColor=white" alt="X" />
+  </a>
+  <a href="https://substack.com/@krzysztofdudek">
+    <img src="https://img.shields.io/badge/Substack-Subscribe-FF6719?logo=substack&logoColor=white" alt="Substack" />
   </a>
 </div>
