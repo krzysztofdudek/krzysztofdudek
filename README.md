@@ -25,12 +25,6 @@ Bigger picture: infrastructure for software that builds itself. Not better promp
     <img src="yggdrasil.svg" alt="Yggdrasil" width="80" />
   </a>
   <br/><br/>
-  <a href="https://discord.gg/SZTbgsH8Wm">
-    <img src="https://img.shields.io/badge/Discord-Join%20Community-5865F2?logo=discord&logoColor=white" alt="Discord" />
-  </a>
-  <br/>
-  <sub>Building something similar or have questions? Join the Discord.</sub>
-  <br/><br/>
   <a href="https://chrisdudek.com">
     <img src="https://img.shields.io/badge/Website-chrisdudek.com-0ea5e9" alt="Website" />
   </a>
