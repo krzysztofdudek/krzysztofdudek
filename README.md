@@ -12,11 +12,13 @@ I build production software with AI agents and ship open source tools from what 
 
 **What I'm working on:**
 
-[**Yggdrasil**](https://github.com/krzysztofdudek/Yggdrasil) — semantic memory for repositories. Agents get full codebase context before they touch anything.
+**[Yggdrasil](https://github.com/krzysztofdudek/Yggdrasil).** Architecture enforcement for AI coding agents. You write rules in plain Markdown, a reviewer verifies every change the agent makes and feeds violations back into the agent's loop before it moves on. Works with Claude Code, Cursor, Copilot, Codex, Cline.
 
-[**ResearcherSkill**](https://github.com/krzysztofdudek/ResearcherSkill) — autonomous deep research skill for Claude Code.
+**[AutoReview](https://github.com/krzysztofdudek/AutoReview).** Lighter sibling of Yggdrasil. Per-file Markdown rules with a trigger DSL, verified on every commit. Claude Code plugin, zero npm deps, runs on local Ollama by default.
 
-Bigger picture: infrastructure for software that builds itself. Not better prompts, mechanisms that enforce correctness, because agents won't do it on their own.
+**[ResearcherSkill](https://github.com/krzysztofdudek/ResearcherSkill).** Autonomous deep research skill for Claude Code.
+
+Bigger picture: infrastructure for software that builds itself. Mechanisms that enforce correctness, because better prompts don't hold and agents won't do it on their own.
 
 ---
 
