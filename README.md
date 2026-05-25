@@ -14,8 +14,6 @@ I build production software with AI agents and ship open source tools from what 
 
 **[Yggdrasil](https://github.com/krzysztofdudek/Yggdrasil).** Architecture enforcement for AI coding agents. You write rules in plain Markdown for a reviewer LLM, or as AST checks for deterministic verification. Every change the agent makes gets verified before it moves on. Works with Claude Code, Cursor, Copilot, Codex, Cline.
 
-**[AutoReview](https://github.com/krzysztofdudek/AutoReview).** Lighter sibling of Yggdrasil. Per-file Markdown rules with a trigger DSL, verified on every commit. Claude Code plugin, zero npm deps, runs on local Ollama by default.
-
 **[ResearcherSkill](https://github.com/krzysztofdudek/ResearcherSkill).** Autonomous deep research skill for Claude Code.
 
 **[BePreciseSkill](https://github.com/krzysztofdudek/BePreciseSkill).** Stops the agent silently resolving spec ambiguity. When the plan is silent on a hit case, the agent asks rather than guesses.
