@@ -18,6 +18,10 @@ I build production software with AI agents and ship open source tools from what 
 
 **[ResearcherSkill](https://github.com/krzysztofdudek/ResearcherSkill).** Autonomous deep research skill for Claude Code.
 
+**[BePreciseSkill](https://github.com/krzysztofdudek/BePreciseSkill).** Stops the agent silently resolving spec ambiguity. When the plan is silent on a hit case, the agent asks rather than guesses.
+
+**[LiaisonSkill](https://github.com/krzysztofdudek/LiaisonSkill).** Five-phase dialogue protocol for serving as the sole interface between a user (technical or not) and the codebase. Captures intent, holds consent gates, delivers exactly what was confirmed.
+
 Bigger picture: infrastructure for software that builds itself. Mechanisms that enforce correctness, because better prompts don't hold and agents won't do it on their own.
 
 ---
