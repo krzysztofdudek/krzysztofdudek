@@ -12,7 +12,7 @@ I build production software with AI agents and ship open source tools from what 
 
 **What I'm working on:**
 
-**[Yggdrasil](https://github.com/krzysztofdudek/Yggdrasil).** Architecture enforcement for AI coding agents. You write rules in plain Markdown, a reviewer verifies every change the agent makes and feeds violations back into the agent's loop before it moves on. Works with Claude Code, Cursor, Copilot, Codex, Cline.
+**[Yggdrasil](https://github.com/krzysztofdudek/Yggdrasil).** Architecture enforcement for AI coding agents. You write rules in plain Markdown for a reviewer LLM, or as AST checks for deterministic verification. Every change the agent makes gets verified before it moves on. Works with Claude Code, Cursor, Copilot, Codex, Cline.
 
 **[AutoReview](https://github.com/krzysztofdudek/AutoReview).** Lighter sibling of Yggdrasil. Per-file Markdown rules with a trigger DSL, verified on every commit. Claude Code plugin, zero npm deps, runs on local Ollama by default.
 
@@ -20,7 +20,7 @@ I build production software with AI agents and ship open source tools from what 
 
 **[BePreciseSkill](https://github.com/krzysztofdudek/BePreciseSkill).** Stops the agent silently resolving spec ambiguity. When the plan is silent on a hit case, the agent asks rather than guesses.
 
-**[LiaisonSkill](https://github.com/krzysztofdudek/LiaisonSkill).** Five-phase dialogue protocol for serving as the sole interface between a user (technical or not) and the codebase. Captures intent, holds consent gates, delivers exactly what was confirmed.
+**[LiaisonSkill](https://github.com/krzysztofdudek/LiaisonSkill).** For people who use AI agents but don't write code. The agent reads back what it heard in your words and waits for explicit yes before anything destructive ships.
 
 Bigger picture: infrastructure for software that builds itself. Mechanisms that enforce correctness, because better prompts don't hold and agents won't do it on their own.
 
