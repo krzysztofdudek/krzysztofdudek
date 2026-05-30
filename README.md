@@ -10,15 +10,15 @@ I build production software with AI agents and ship open source tools from what 
 
 ---
 
-**What I'm working on:**
+**The Yggdrasil family** — mechanisms that make AI coding agents prove correctness, stage by stage. Because "done" isn't done.
 
-**[Yggdrasil](https://github.com/krzysztofdudek/Yggdrasil).** Architecture enforcement for AI coding agents. You write rules in plain Markdown for a reviewer LLM, or as AST checks for deterministic verification. Every change the agent makes gets verified before it moves on. Works with Claude Code, Cursor, Copilot, Codex, Cline.
+**[Yggdrasil](https://github.com/krzysztofdudek/Yggdrasil).** Architecture enforcement. You write rules in plain Markdown for a reviewer LLM, or as AST checks for deterministic verification. Every change the agent makes gets verified before it moves on. Works with Claude Code, Cursor, Copilot, Codex, Cline.
 
-**[ResearcherSkill](https://github.com/krzysztofdudek/ResearcherSkill).** Autonomous research skill for Claude Code.
+**[Ratatoskr](https://github.com/krzysztofdudek/RatatoskrSkill).** The **user → intent** gap. For people who use AI agents but can't read the diff: the agent reads your request back in plain words and waits for an explicit yes before anything destructive ships.
 
-**[BePreciseSkill](https://github.com/krzysztofdudek/BePreciseSkill).** Stops the agent silently resolving spec ambiguity. When the plan is silent on a hit case, the agent asks rather than guesses.
+**[Urd](https://github.com/krzysztofdudek/UrdSkill).** The **intent → code** gap. When the plan runs out, the agent consults the source of truth and asks instead of silently resolving spec ambiguity.
 
-**[LiaisonSkill](https://github.com/krzysztofdudek/LiaisonSkill).** For people who don't write code but use AI agents anyway. The agent reads back what it heard in your words and waits for explicit yes before anything destructive ships.
+**[ResearcherSkill](https://github.com/krzysztofdudek/ResearcherSkill).** Point the agent at a measurable goal and let it run experiments autonomously — hypotheses raised, kept, and discarded.
 
 Bigger picture: infrastructure for software that builds itself. Mechanisms that enforce correctness, because better prompts don't hold and agents won't do it on their own.
 
