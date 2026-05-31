@@ -10,15 +10,16 @@ I build production software with AI agents and ship open source tools from what 
 
 ---
 
-**The Yggdrasil family** — mechanisms that make AI coding agents prove correctness, stage by stage. Because "done" isn't done.
+## The Yggdrasil family
 
-**[Yggdrasil](https://github.com/krzysztofdudek/Yggdrasil).** Architecture enforcement for AI coding agents. Rules are plain-Markdown aspects an LLM reviewer checks, or deterministic scripts that run at zero cost. The agent reads the rules that touch a file before editing, the reviewer verifies after, and a CI gate blocks any unverified change. Works with Claude Code, Cursor, Copilot, Codex, Cline.
+Mechanisms that make an AI coding agent prove correctness, stage by stage. Because "done" isn't done.
 
-**[Ratatoskr](https://github.com/krzysztofdudek/RatatoskrSkill).** The **user → intent** gap. For people who use AI agents but can't read the diff: the agent reads your request back in plain words and waits for an explicit yes before anything destructive ships.
-
-**[Urd](https://github.com/krzysztofdudek/UrdSkill).** The **intent → code** gap. When the plan runs out, the agent consults the source of truth and asks instead of silently resolving spec ambiguity.
-
-**[ResearcherSkill](https://github.com/krzysztofdudek/ResearcherSkill).** Point the agent at a measurable goal and let it run experiments autonomously — hypotheses raised, kept, and discarded.
+| Tool | Stage | What it makes the agent prove |
+|---|---|---|
+| **[Ratatoskr](https://github.com/krzysztofdudek/RatatoskrSkill)** | request → intent | Reads your request back in plain words and waits for an explicit yes before it acts. |
+| **[Urd](https://github.com/krzysztofdudek/UrdSkill)** | intent → code | When the spec is ambiguous, it consults the source of truth and asks instead of guessing. |
+| **[Yggdrasil](https://github.com/krzysztofdudek/Yggdrasil)** | code → architecture | Every change satisfies the rules that govern it, checked before the agent moves on. |
+| **[Researcher](https://github.com/krzysztofdudek/ResearcherSkill)** | code → measured result | Point it at a metric and it runs experiments, hypotheses kept and discarded. |
 
 Bigger picture: infrastructure for software that builds itself. Mechanisms that enforce correctness, because better prompts don't hold and agents won't do it on their own.
 
