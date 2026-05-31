@@ -1,6 +1,6 @@
 <div align="center">
 
-### Hey, I'm Krzysztof.
+### Hey, I'm Chris.
 
 Software engineer. .NET, distributed systems, building stuff from scratch.
 
@@ -21,7 +21,7 @@ Mechanisms that make an AI coding agent prove correctness, stage by stage. Becau
 | **[Yggdrasil](https://github.com/krzysztofdudek/Yggdrasil)** | code → architecture | Every change satisfies the rules that govern it, checked before the agent moves on. |
 | **[Researcher](https://github.com/krzysztofdudek/ResearcherSkill)** | code → measured result | Point it at a metric and it runs experiments, hypotheses kept and discarded. |
 
-Bigger picture: infrastructure for software that builds itself. Mechanisms that enforce correctness, because better prompts don't hold and agents won't do it on their own.
+Where this is going: tools that make agents prove their work instead of trusting them. Better prompts don't hold, and agents won't enforce correctness on their own.
 
 ---
 
