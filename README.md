@@ -4,7 +4,7 @@
 
 Software engineer. .NET, distributed systems, building stuff from scratch.
 
-I build production software with AI agents and ship open source tools from what I learn. ResearcherSkill and Yggdrasil came from watching agents say "done" when they're not even close.
+I build production software with AI agents and ship open source tools from what I learn. Researcher and Yggdrasil came from watching agents say "done" when they're not even close.
 
 </div>
 
