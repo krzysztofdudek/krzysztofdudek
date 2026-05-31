@@ -12,7 +12,7 @@ I build production software with AI agents and ship open source tools from what 
 
 **The Yggdrasil family** — mechanisms that make AI coding agents prove correctness, stage by stage. Because "done" isn't done.
 
-**[Yggdrasil](https://github.com/krzysztofdudek/Yggdrasil).** Architecture enforcement. You write rules in plain Markdown for a reviewer LLM, or as AST checks for deterministic verification. Every change the agent makes gets verified before it moves on. Works with Claude Code, Cursor, Copilot, Codex, Cline.
+**[Yggdrasil](https://github.com/krzysztofdudek/Yggdrasil).** Architecture enforcement for AI coding agents. Rules are plain-Markdown aspects an LLM reviewer checks, or deterministic scripts that run at zero cost. The agent reads the rules that touch a file before editing, the reviewer verifies after, and a CI gate blocks any unverified change. Works with Claude Code, Cursor, Copilot, Codex, Cline.
 
 **[Ratatoskr](https://github.com/krzysztofdudek/RatatoskrSkill).** The **user → intent** gap. For people who use AI agents but can't read the diff: the agent reads your request back in plain words and waits for an explicit yes before anything destructive ships.
 
