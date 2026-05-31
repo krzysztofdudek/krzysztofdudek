@@ -6,43 +6,34 @@ Software engineer. .NET, distributed systems, building stuff from scratch.
 
 I build production software with AI agents and ship open source tools from what I learn. Researcher and Yggdrasil came from watching agents say "done" when they're not even close.
 
+<br/>
+
+<a href="https://discord.gg/SZTbgsH8Wm">
+  <img src="yggdrasil.svg" alt="Yggdrasil" width="80" />
+</a>
+
+<br/><br/>
+
+<a href="https://chrisdudek.com"><img src="https://img.shields.io/badge/Website-chrisdudek.com-0ea5e9" alt="Website" /></a>
+<a href="https://www.linkedin.com/in/krzysztofdudek"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://x.com/krzysztofdudekx"><img src="https://img.shields.io/badge/X-Follow-000000?logo=x&logoColor=white" alt="X" /></a>
+<a href="https://substack.com/@krzysztofdudek"><img src="https://img.shields.io/badge/Substack-Subscribe-FF6719?logo=substack&logoColor=white" alt="Substack" /></a>
+<a href="https://www.reddit.com/user/krzysztofdudek/"><img src="https://img.shields.io/badge/Reddit-Profile-FF4500?logo=reddit&logoColor=white" alt="Reddit" /></a>
+
 </div>
 
 ---
-
-## The Yggdrasil family
-
-Mechanisms that make an AI coding agent prove correctness, stage by stage. Because "done" isn't done.
-
-| Tool | Stage | What it makes the agent prove |
-|---|---|---|
-| **[Ratatoskr](https://github.com/krzysztofdudek/RatatoskrSkill)** | request → intent | Reads your request back in plain words so you see what it understood before it builds. |
-| **[Urd](https://github.com/krzysztofdudek/UrdSkill)** | intent → code | When the spec is ambiguous, it consults the source of truth and asks instead of guessing. |
-| **[Yggdrasil](https://github.com/krzysztofdudek/Yggdrasil)** | code → architecture | Every change satisfies the rules that govern it, checked before the agent moves on. |
-| **[Researcher](https://github.com/krzysztofdudek/ResearcherSkill)** | code → measured result | Point it at a metric and it runs experiments, hypotheses kept and discarded. |
 
 Where this is going: tools that make agents prove their work instead of trusting them. Better prompts don't hold, and agents won't enforce correctness on their own.
 
----
+## Yggdrasil
 
-<div align="center">
-  <a href="https://discord.gg/SZTbgsH8Wm">
-    <img src="yggdrasil.svg" alt="Yggdrasil" width="80" />
-  </a>
-  <br/><br/>
-  <a href="https://chrisdudek.com">
-    <img src="https://img.shields.io/badge/Website-chrisdudek.com-0ea5e9" alt="Website" />
-  </a>
-  <a href="https://www.linkedin.com/in/krzysztofdudek">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://x.com/krzysztofdudekx">
-    <img src="https://img.shields.io/badge/X-Follow-000000?logo=x&logoColor=white" alt="X" />
-  </a>
-  <a href="https://substack.com/@krzysztofdudek">
-    <img src="https://img.shields.io/badge/Substack-Subscribe-FF6719?logo=substack&logoColor=white" alt="Substack" />
-  </a>
-  <a href="https://www.reddit.com/user/krzysztofdudek/">
-    <img src="https://img.shields.io/badge/Reddit-Profile-FF4500?logo=reddit&logoColor=white" alt="Reddit" />
-  </a>
-</div>
+**[Architecture rules your AI agent cannot ignore.](https://github.com/krzysztofdudek/Yggdrasil)** Every change gets checked before it moves on.
+
+### Companion skills
+
+**[Ratatoskr](https://github.com/krzysztofdudek/RatatoskrSkill)** — a translator between you and your codebase, so you see what the agent understood before it builds.
+
+**[Urd](https://github.com/krzysztofdudek/UrdSkill)** — consults the source of truth and asks instead of guessing.
+
+**[Researcher](https://github.com/krzysztofdudek/ResearcherSkill)** — point the agent at a metric and let it run experiments.
