@@ -4,7 +4,7 @@
 
 Software engineer. .NET, distributed systems, building stuff from scratch.
 
-I build with AI agents and ship open source tools that check what they produce. Yggdrasil came from watching agents say "done" when they're not even close.
+I build with AI agents, and I prove their work. So AI-written code can ship to production with confidence. Proof instead of trust. Yggdrasil came from watching agents say "done" when they're not even close.
 
 <br/>
 
@@ -24,7 +24,7 @@ I build with AI agents and ship open source tools that check what they produce. 
 
 ---
 
-Where this is going: tools that make agents prove their work instead of trusting them. Better prompts don't hold, and agents won't enforce correctness on their own.
+Where this is going: from proving AI-written code is right before it ships, to proving it actually worked once it's live. Better prompts don't hold, and agents won't enforce correctness on their own.
 
 ## Yggdrasil
 
