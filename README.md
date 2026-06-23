@@ -28,7 +28,7 @@ Where this is going: from proving AI-written code is right before it ships, to p
 
 ## Yggdrasil
 
-**[Architecture rules your AI agent cannot ignore.](https://github.com/krzysztofdudek/Yggdrasil)** Every change gets checked before it moves on.
+**[Stop babysitting your agent.](https://github.com/krzysztofdudek/Yggdrasil)** Architecture rules it can't ignore, checked on every change before it moves on.
 
 ### Companion skills
 
