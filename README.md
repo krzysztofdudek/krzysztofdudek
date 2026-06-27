@@ -32,7 +32,7 @@ Where this is going: from proving AI-written code is right before it ships, to p
 
 ### Companion skills
 
-**[Ratatoskr](https://github.com/krzysztofdudek/RatatoskrSkill)** — a translator between you and your codebase, so you see what the agent understood before it builds.
+**[Ratatoskr](https://github.com/krzysztofdudek/RatatoskrSkill)** — a translator between you and your codebase, so you follow what it's doing in plain words, not code.
 
 **[Urd](https://github.com/krzysztofdudek/UrdSkill)** — consults the source of truth and asks instead of guessing.
 
