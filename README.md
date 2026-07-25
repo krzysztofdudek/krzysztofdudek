@@ -28,7 +28,7 @@ Where this is going: from proving AI-written code is right before it ships, to p
 
 ## Yggdrasil
 
-**[Stop babysitting your agent.](https://github.com/krzysztofdudek/Yggdrasil)** Architecture rules it can't ignore, checked on every change before it moves on.
+**[Say it once.](https://github.com/krzysztofdudek/Yggdrasil)** A rule you write holds in every session after, and the agent has to satisfy it before it moves on. Free local checks, keyless CI.
 
 ### Companion skills
 
