@@ -2,9 +2,9 @@
 
 ### Hey, I'm Chris.
 
-Software engineer. .NET, distributed systems, building stuff from scratch.
+I build with AI agents and prove their work. So AI-written code can ship to production with confidence.
 
-I build with AI agents and prove their work. Yggdrasil came from watching agents say "done" when they're not even close.
+Yggdrasil came from watching agents say "done" when they're not even close.
 
 <br/>
 
@@ -26,14 +26,18 @@ I build with AI agents and prove their work. Yggdrasil came from watching agents
 
 Where this is going: from proving AI-written code is right before it ships, to proving it actually worked once it's live. Better prompts don't hold, and agents won't enforce correctness on their own.
 
+Behind it: ten years of production distributed systems (.NET, Kafka, Kubernetes), banking and betting scale. That is where my bar for enterprise quality comes from, and why a green test alone has never convinced me.
+
 ## Yggdrasil
 
 **[Say it once.](https://github.com/krzysztofdudek/Yggdrasil)** A rule you write holds in every session after, and the agent has to satisfy it before it moves on. Free local checks, keyless CI.
+
+## Researcher
+
+**[One file. Your coding agent becomes a scientist.](https://github.com/krzysztofdudek/ResearcherSkill)** It designs experiments, tests hypotheses, discards what fails and keeps what works, 30+ experiments overnight. The experiments behind the numbers I publish.
 
 ### Companion skills
 
 **[Ratatoskr](https://github.com/krzysztofdudek/RatatoskrSkill)** — a translator between you and your codebase, so you follow what it's doing in plain words, not code.
 
 **[Urd](https://github.com/krzysztofdudek/UrdSkill)** — consults the source of truth and asks instead of guessing.
-
-**[Researcher](https://github.com/krzysztofdudek/ResearcherSkill)** — point the agent at a metric and let it run experiments.
