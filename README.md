@@ -36,8 +36,14 @@ Behind it: ten years of production distributed systems (.NET, Kafka, Kubernetes)
 
 **[One file. Your coding agent becomes a scientist.](https://github.com/krzysztofdudek/ResearcherSkill)** It designs experiments, tests hypotheses, discards what fails and keeps what works, 30+ experiments overnight. The experiments behind the numbers I publish.
 
+## Horde
+
+**[When one agent isn't enough, raise a horde.](https://github.com/krzysztofdudek/Horde)** Turns your coding agent into a director: a steward per branch, an owner per node, an architect with veto, workers and verifiers who never verify their own work. Same standards as the rest of this list, held across a whole mission instead of one agent's context.
+
 ### Companion skills
 
 **[Ratatoskr](https://github.com/krzysztofdudek/RatatoskrSkill)** — a translator between you and your codebase, so you follow what it's doing in plain words, not code.
 
 **[Urd](https://github.com/krzysztofdudek/UrdSkill)** — consults the source of truth and asks instead of guessing.
+
+**[Grain](https://github.com/krzysztofdudek/Grain)** — reads the conventions a codebase actually practices instead of the ones someone declared. Paused since 2026-09-02: the tool works, the case that it changes an agent's output didn't hold up yet.
