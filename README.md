@@ -30,15 +30,15 @@ Behind it: ten years of production distributed systems (.NET, Kafka, Kubernetes)
 
 ## Yggdrasil
 
-**[Say it once.](https://github.com/krzysztofdudek/Yggdrasil)** A rule you write holds in every session after, and the agent has to satisfy it before it moves on. Free local checks, keyless CI.
+**[Say it once.](https://github.com/krzysztofdudek/Yggdrasil)** A rule you write holds in every session after, and the agent has to satisfy it before it moves on. Free local checks, keyless CI. It is the core the other two stand on.
 
-## Researcher
+## Grain
 
-**[One file. Your coding agent becomes a scientist.](https://github.com/krzysztofdudek/ResearcherSkill)** It designs experiments, tests hypotheses, discards what fails and keeps what works, 30+ experiments overnight. The experiments behind the numbers I publish.
+**[From clone to graph.](https://github.com/krzysztofdudek/Grain)** Point it at a repository nobody has annotated and it writes the first architecture graph from the code and the history: the components you actually have, what depends on what, and the rules your own code already proves, each one carrying its evidence and the count of places that break it today. Yggdrasil accepts the proposal with one command.
 
 ## Horde
 
-**[When one agent isn't enough, raise a horde.](https://github.com/krzysztofdudek/Horde)** Turns your coding agent into a director: a steward per branch, an owner per node, an architect with veto, workers and verifiers who never verify their own work. Same standards as the rest of this list, held across a whole mission instead of one agent's context.
+**[When one agent isn't enough, raise a horde.](https://github.com/krzysztofdudek/Horde)** Turns your coding agent into a director: a steward per branch, an owner per node, an architect with veto, workers and verifiers who never verify their own work. It works the graph Yggdrasil holds, so the same standards ride a whole mission instead of one agent's context.
 
 ### Companion skills
 
@@ -46,4 +46,4 @@ Behind it: ten years of production distributed systems (.NET, Kafka, Kubernetes)
 
 **[Urd](https://github.com/krzysztofdudek/UrdSkill)** — consults the source of truth and asks instead of guessing.
 
-**[Grain](https://github.com/krzysztofdudek/Grain)** — reads the conventions a codebase actually practices instead of the ones someone declared. Paused since 2026-09-02: the tool works, the case that it changes an agent's output didn't hold up yet.
+**[Researcher](https://github.com/krzysztofdudek/ResearcherSkill)** — one file, and your coding agent becomes a scientist: it designs experiments, discards what fails and keeps what works, 30+ overnight. The experiments behind the numbers I publish.
