@@ -40,7 +40,7 @@ Behind it: ten years of production distributed systems (.NET, Kafka, Kubernetes)
 
 **[When one agent isn't enough, raise a horde.](https://github.com/krzysztofdudek/Horde)** Turns your coding agent into a director: a steward per branch, an owner per node, an architect with veto, workers and verifiers who never verify their own work. It works the graph Yggdrasil holds, so the same standards ride a whole mission instead of one agent's context.
 
-### Companion skills
+### Add-ons
 
 **[Ratatoskr](https://github.com/krzysztofdudek/RatatoskrSkill)** — a translator between you and your codebase, so you follow what it's doing in plain words, not code.
 
