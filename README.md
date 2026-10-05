@@ -50,12 +50,10 @@ Start where it hurts. There is no ladder to climb first.
 
 ### Add-ons
 
-Four add-ons attach to the agent, not to the graph. Each works alone and keeps its own version number.
+Three add-ons attach to the agent, not to the graph. Each works alone and keeps its own version number.
 
 **[Ratatoskr](https://github.com/krzysztofdudek/RatatoskrSkill)**: a translator between you and your codebase, so you follow what it's doing in plain words, not code. Inside Horde's loop it keeps your plain-language registry open at both ends of a mission.
 
 **[Urd](https://github.com/krzysztofdudek/UrdSkill)**: consults the source of truth and asks instead of guessing. Inside Horde's loop it's the stop a worker hits before it guesses.
 
 **[Researcher](https://github.com/krzysztofdudek/ResearcherSkill)**: one file, and your coding agent becomes a scientist. It designs experiments, discards what fails and keeps what works, 30+ overnight. The experiments behind the numbers I publish. Inside Horde's loop it runs the retrospective's measurement.
-
-**[Skald](https://github.com/krzysztofdudek/SkaldSkill)**: films of your real running software, made by your coding agent. It records the live product, never a rebuilt one, and every number and claim on screen traces back to the product's own logs. Horde does not call it.
