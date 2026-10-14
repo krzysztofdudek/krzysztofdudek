@@ -30,7 +30,7 @@ Behind it: ten years of production distributed systems (.NET, Kafka, Kubernetes)
 
 Jarl is the loop. Yggdrasil is the law. Grain is the survey. Horde plans a mission onto the law before anyone writes, lands every change through a gate no agent can argue with, and runs on Jarl's loop with Grain in the architect's hands. The four ship under one version number, built and tested against each other, and Yggdrasil, Grain and Jarl each work alone. You are the client: you order a result, get it back in plain words, and only you can lower or veto a rule. An agent raises law inside one component on its own; law that reaches a whole type of code runs as advice until you admit it, in one batch, when the work closes. [The core's shared contracts, on one page.](https://krzysztofdudek.github.io/Yggdrasil/family-contracts)
 
-Start where it hurts. There is no ladder to climb first.
+Start at the step where it hurts.
 
 ## Jarl
 
