@@ -1,24 +1,12 @@
 <div align="center">
 
-### Hey, I'm Chris.
+### Krzysztof Dudek
 
-I build with AI agents and prove their work. So AI-written code can ship to production with confidence.
+Senior Software Engineer | I build with AI agents and prove their work
 
-Yggdrasil came from watching agents say "done" when they're not even close.
+Ten years of production distributed systems in .NET, Kafka and Kubernetes, banking and betting scale. Now I work out how far you can let agents go on their own and what has to be there to check them. Yggdrasil, Jarl and ResearcherSkill are what I use for that. All open source, MIT.
 
-<br/>
-
-<a href="https://discord.gg/SZTbgsH8Wm">
-  <img src="yggdrasil.svg" alt="Yggdrasil" width="80" />
-</a>
-
-<br/><br/>
-
-<a href="https://chrisdudek.com"><img src="https://img.shields.io/badge/Website-chrisdudek.com-0ea5e9" alt="Website" /></a>
-<a href="https://www.linkedin.com/in/krzysztofdudek"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://x.com/krzysztofdudekx"><img src="https://img.shields.io/badge/X-Follow-000000?logo=x&logoColor=white" alt="X" /></a>
-<a href="https://substack.com/@krzysztofdudek"><img src="https://img.shields.io/badge/Substack-Subscribe-FF6719?logo=substack&logoColor=white" alt="Substack" /></a>
-<a href="https://www.reddit.com/user/krzysztofdudek/"><img src="https://img.shields.io/badge/Reddit-Profile-FF4500?logo=reddit&logoColor=white" alt="Reddit" /></a>
+[chrisdudek.com](https://chrisdudek.com) · [LinkedIn](https://www.linkedin.com/in/krzysztofdudek) · [X @chrisdudekdev](https://x.com/chrisdudekdev)
 
 </div>
 
@@ -56,4 +44,4 @@ Three add-ons attach to the agent, not to the graph. Each works alone and keeps 
 
 **[Urd](https://github.com/krzysztofdudek/UrdSkill)**: consults the source of truth and asks instead of guessing. Inside Horde's loop it's the stop a worker hits before it guesses.
 
-**[Researcher](https://github.com/krzysztofdudek/ResearcherSkill)**: one file, and your coding agent becomes a scientist. It designs experiments, discards what fails and keeps what works, 30+ overnight. The experiments behind the numbers I publish. Inside Horde's loop it runs the retrospective's measurement.
+**[Researcher](https://github.com/krzysztofdudek/ResearcherSkill)**: one file, and your coding agent becomes a scientist. It designs experiments, discards what fails and keeps what works. The experiments behind the numbers I publish. Inside Horde's loop it runs the retrospective's measurement.
